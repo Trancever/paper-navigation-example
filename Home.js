@@ -51,6 +51,13 @@ export default class Home extends Component<Props> {
                     Navigation.push(this.props.componentId, {
                       component: {
                         name: 'navigation.playground.Overview',
+                        options: {
+                          topBar: {
+                            title: {
+                              text: 'Overview',
+                            },
+                          },
+                        },
                       },
                     });
                   }}
